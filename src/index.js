@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './main/Calculadora';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <h1 style={{fontFamily:'verdana',color:'#fff'}}  >Calculadora!</h1>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
